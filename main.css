@@ -19,5 +19,13 @@ div {
 
 }
 
+a img{
+    float: right;
+    /*clear: left;*/
+    /*position: relative;*/
+    margin-top: 30px;
+    margin-right: -50px;
+}
+
 
 
