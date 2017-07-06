@@ -55,3 +55,21 @@ body{
 .logo.centered-contanier{
     text-align: center;
 }
+
+.bottom-left-icons{
+    width: 300px;
+    max-width: 800px;
+    border: 1px solid #f00;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+
+
+}
+
+.bottom-right-icons{
+    visibility: hidden; /*this hides stuff but keeps the space */
+    margin-left: 1000px;
+}
