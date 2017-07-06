@@ -61,10 +61,12 @@ body{
     max-width: 800px;
     border: 1px solid #f00;
     margin: 0 auto;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 27px;
     display: block;
     position: fixed;
     bottom: 0px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif
 
 
 }
