@@ -1,0 +1,23 @@
+
+.header{
+    font-size: 18px;
+    text-align:center;
+    color: darkblue;
+    /*text-decoration:underline;*/
+    font-family: Courier New, Courier, monospace;
+    /*background-color: orange;*/
+    border: 2px solid red;
+    /*display: block;*/
+    width: 800px;
+    margin: 20px auto;
+    padding: 18px 54px;
+}
+div {
+    text-align: center;
+    display: block;
+    margin: center;
+
+}
+
+
+
