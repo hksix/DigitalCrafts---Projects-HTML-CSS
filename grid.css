@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+* {
+    border: 1px solid slategray;
+    text-align: center;
+}
+
+.row{
+    width:100%;
+    clear: both;
+    color: blue;
+    
+}
+
+.col-third{
+    float: left;
+    width:33.33%;
+   
+}
+
+.col-half{
+    width:50%;
+    float: left;
+}
+.col-full{
+    width: 100%;
+    float:left;
+}
+
+.col-fourth{
+    width: 25.00009%;
+    float: left;
+}
+.col-twothirds{
+    width: 66%;
+    float: left;
+    /*padding-left: 33%;  this moves the text inside the box */
+    margin-left: 16.5%;  /*this moves the column box - a margin that is half of the width-100 from the float side will center it  */
+
+}
+.col-threefourths{
+    width: 75%;
+    float: left;
+    margin-left: 12.5%
+}
