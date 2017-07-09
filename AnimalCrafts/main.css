@@ -1,0 +1,117 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*
+
+Default styles, loaded regardless of media queries.
+These should be developed first for small (phone-sized) screens.
+*/
+
+
+html {
+  font-size: 10px; /* base any rem sizing off of 10px */
+}
+
+h1 {
+  border: 1px solid red;
+}
+
+nav {
+  display: none;
+}
+.image-tiger{
+    border: 1px solid blue;
+    background-image: url(../images/tiger-small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.image-panda{
+   border: 1px solid blue;
+    background-image: url(../images/panda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.image-monkey{
+   border: 1px solid blue;
+    background-image: url(../images/monkey.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+/* 
+Add a threshold ("break point") when
+the width of the viewport is 600px or greater. 
+*/
+
+
+/*
+You can query for lots and lots of things.
+I recommend keeping it (very) simple.
+But you can read about other options here: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+*/
+@media screen and (min-width: 600px) {
+  h1 {
+    border: 5px dotted blue;
+  }
+  nav {
+    display: block;
+    font-size: 3rem;
+  }
+  .image-tiger {
+    border: 1px solid red;
+    background-image: url(../images/tiger.jpg);
+    height: 700px;
+  }
+    .image-panda{
+    border: 1px solid red;
+    background-image: url(../images/panda.jpg);
+    height: 700px;
+  }
+  .image-monkey{
+    border: 1px solid red;
+    background-image: url(../images/monkey.jpg);
+    height: 700px;
+  }
+
+}
+
+/* 
+Add a threshold ("break point") when
+the width of the viewport is 900px or greater. 
+*/
+@media screen and (min-width: 900px) {
+  h1 {
+    border: 15px solid green;
+  }
+  nav {
+    color: red;
+    font-size: 1.5rem;
+  }
+  .image-tiger {
+    border: 1px solid orange;
+    background-image: url(../images/tiger2x.jpg);
+    height: 1000px;
+  }
+  .image-panda{
+    border: 1px solid orange;
+    background-image: url(../images/panda.jpg);
+    height: 1000px;
+  }
+  .image-monkey{
+    border: 1px solid orange;
+    background-image: url(../images/monkey.jpg);
+    height: 1000px;
+  }
+}
