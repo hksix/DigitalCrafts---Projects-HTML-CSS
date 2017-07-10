@@ -1,0 +1,145 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*
+
+Default styles, loaded regardless of media queries.
+These should be developed first for small (phone-sized) screens.
+*/
+
+html {
+  font-size: 14px; /* base any rem sizing off of 10px */
+  
+}
+
+
+.header{
+    display: flex;
+    /*border: 1px solid red;*/
+    justify-content: center;
+    width: auto;
+    margin: 5% 10% 0 10%;
+    
+
+}
+ul {
+    display: flex;
+    margin: 0 0 0 38%;
+    /*margin: 5% 10% 0 10%;*/
+    width: 25%;
+    /*list-style: none;
+    clear: both;*/
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    white-space: nowrap;
+    
+}
+
+li {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.center-image{
+    
+    background-image: url(./Images/defaultBackground15.jpg);
+    margin: 0 10% 0 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    /*width: 200%*/
+    margin-bottom: 10%;
+}
+section{
+    /*border: 1px solid red;*/
+    /*background-image: url(./Images/defaultBackground15.jpg);*/
+}
+article{
+    /*border: 1px solid red;*/
+    /*display: block;*/
+    width: 80%;
+    text-align: center;
+    padding:0 0 0 15%;
+    margin: 0 0 5% 3%;
+
+}
+article > div{
+    text-decoration: underline;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .center-image{
+        /*border: 1px solid red;*/
+        background-image: url(./Images/defaultBackground15.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 60%;
+        height: 45em;
+        float: right;
+        /*justify-content: flex-end;*/
+        /*align-self: center;*/
+        margin: 30% 3% 0 0;
+    }
+    main{
+        display: flex;
+        /*border: 1px dotted blue;*/
+        
+    }
+    content{
+        margin-top: 5%;
+        /*border: 1px dotted blue;*/
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        margin-left: 30px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0 25%;
+        width: 50%;
+        
+    }
+}
+@media only screen  and (min-width : 1025px) {
+    .center-image{
+        background-image: url(./Images/defaultBackground15.jpg);
+        width: 88%;
+        height: 50em;
+        /*justify-content: center;*/
+        margin-top: 0;
+        margin-left: 7.5%;
+    }
+    main{
+        display: flex;
+        
+    }
+    content{
+        display: flex;
+        margin-top: 0;
+        /*border: 1px dotted blue;*/
+        align-content: center;
+        justify-content: center;
+        /*padding: 0 0 0 0;
+        width: 0;
+        margin-left: 0;*/
+    }
+    article{
+    /*border: 1px solid red;*/
+    /*display: block;*/
+    width: 100%;
+    text-align: center;
+    padding:0 5% 0 5%;
+    margin: 0 0 0 0;
+    }
+
+}
