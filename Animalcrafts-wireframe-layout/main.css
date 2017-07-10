@@ -118,6 +118,7 @@ article > div{
         /*justify-content: center;*/
         margin-top: 0;
         margin-left: 7.5%;
+        margin-bottom: 3%;
     }
     main{
         display: flex;
