@@ -44,3 +44,10 @@ Flex: 0 1 auto;
     0= flex-grow occupies more space
     1= flex-shrink. how ratio of size based of other growing boxes
     auto= size
+
+@media (min-width: 600px){
+    when the min width of the viewport is 600px - this is a if statement that will change based on the code below.
+    h1 {
+        border: 5px dotted blue;
+    }
+}
