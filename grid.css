@@ -10,6 +10,13 @@ html {
     text-align: center;
 }
 
+p { 
+  color: blue; 
+} 
+.container { 
+  color: red; 
+}
+
 .row{
     width:100%;
     clear: both;
@@ -47,4 +54,19 @@ html {
     width: 75%;
     float: left;
     margin-left: 12.5%
+}
+div{
+    background-color:blue;
+}
+
+body > div{
+    background-color: red;
+}
+
+div div{
+    background-color: orange;
+}
+
+div a{
+    background-color: black;
 }
