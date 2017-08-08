@@ -6,35 +6,20 @@ This repository contains HTML and CSS excercises, projects and notes. The bulk o
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What I used to run all the files: 
-
-```
-Visual studio code
-Bootstrap CDN
-Font Awesome
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+### Concepts used
+  Below are the tools used for the projects in this repository. 
 
 ```
-Give the example
+  Visual Studio Code
+  CSS
+  Bootstrap
+  Flexboxes
 ```
 
-And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## What I learned
 
 Explain how to run the automated tests for this system
 
@@ -46,17 +31,14 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+### Coding style tests
 
-Explain what these tests test and why
+The focus shifted towards creating responsive web applications.
 
 ```
-Give an example
+For e.g Animal Crafts was redone using breakpoints to create a responsive web applicaiton
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
