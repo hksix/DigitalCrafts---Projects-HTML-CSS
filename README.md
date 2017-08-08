@@ -65,7 +65,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Author
 
-* **Hamza Haseeb** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Hamza Haseeb** - *Initial work* - [HkSix](https://github.com/hksix)
 
 
 ## Acknowledgments
